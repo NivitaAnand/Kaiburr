@@ -55,7 +55,7 @@ The **SGDClassifier** was ultimately selected as the production model due to its
 ### Confusion Matrix (Final Model: SGDClassifier)
 
 The heat map below visually validates the high diagonal fidelity of the SGD model, proving its ability to correctly classify each category with minimal inter-class confusion.
-
+![WorkFlow](/Image1.png)
 
 
 ***
