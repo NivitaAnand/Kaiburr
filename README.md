@@ -66,7 +66,7 @@ The entire model pipeline—the **SGDClassifier** and the **TfidfVectorizer**—
 
 * **Deployable Artifacts:** `final_classifier_prod.joblib` and `vectorizer_prod.joblib`
   ![Task_5](images/confusion_matrix.png)
-  ![Task_5](images/class_distribution_mul_nb.png)
+  ![Task_5](images/confusion_matrix_mul_nb.png)
 
 ### Test Prediction Results
 
