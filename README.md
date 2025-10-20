@@ -55,7 +55,7 @@ The **SGDClassifier** was ultimately selected as the production model due to its
 ### Confusion Matrix (Final Model: SGDClassifier)
 
 The heat map below visually validates the high diagonal fidelity of the SGD model, proving its ability to correctly classify each category with minimal inter-class confusion.
-![WorkFlow](images/class_distribution.png)
+![Task_5](images/class_distribution.png)
 
 
 ***
@@ -65,6 +65,8 @@ The heat map below visually validates the high diagonal fidelity of the SGD mode
 The entire model pipeline—the **SGDClassifier** and the **TfidfVectorizer**—was serialized and saved to disk using `joblib`. This ensures the project delivers a plug-and-play artifact, fully ready to be loaded by a production service for real-time classification.
 
 * **Deployable Artifacts:** `final_classifier_prod.joblib` and `vectorizer_prod.joblib`
+  ![Task_5](images/confusion_matrix.png)
+  ![Task_5](images/class_distribution_mul_nb.png)
 
 ### Test Prediction Results
 
@@ -76,3 +78,4 @@ The final, loaded model was tested against new, unseen narratives:
 | 'collector demanded i pay unknown bill threatened legal action' | Credit reporting, repair, or other (0) |
 | 'auto loan inquiry without permission hit my report' | Credit reporting, repair, or other (0) |
 | 'equifax showed account not mine please fix' | Credit reporting, repair, or other (0) |
+![Task_5](images/prediction_model.png)
